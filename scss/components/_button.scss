@@ -1,0 +1,17 @@
+.btn{
+    float: right;
+    padding: 1rem 1.5rem;
+    font-family: $font;
+    color: $color-white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: none;
+    background-color: $color-red-light;
+    transition: all 1s ease-in;
+
+    &:hover{
+        cursor: pointer;
+        transform: rotateX(360deg);
+        background-color: $color-blue;
+    }
+}
